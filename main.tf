@@ -1,7 +1,7 @@
 resource "google_compute_network" "private_nated_network" {
   name                    = "private-nated-net"
   auto_create_subnetworks = false
-  mtu                     = 1450
+  mtu                     = var.network_mtu
 }
 
 resource "google_compute_subnetwork" "private_nated_subnetwork" {
