@@ -1,4 +1,4 @@
-# GKE cluster deployment
+# Private NATed network deployment on GCP
 
 ## Requirements
 
